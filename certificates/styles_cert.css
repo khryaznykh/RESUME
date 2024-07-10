@@ -1,0 +1,155 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    /* font-family: 'Inknut Antiqua', serif; */
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: aliceblue; */
+    background-image: url("zakat.jpg");
+    /* background-image: url(https://images.unsplash.com/photo-1489674267075-cee793167910?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+   
+    .menu-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        padding: 0;
+        z-index: 5;
+        
+      }
+      .btn-container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+      }
+      .btn {
+        margin-left: auto;
+        border: none;
+        margin-top: 10px;
+        margin-right: 20px;
+        background-color: transparent;
+      }
+      .menu {
+        display: flex;
+        width: 100%;
+        height: 100%;
+      
+      }
+      .hidden {
+        display: none;
+      }
+      /* .menu-column {
+        
+       
+      } */
+      .menu-item {
+        z-index: 5;
+        flex: 1;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+      }
+      .font {
+        font-family: "Six Caps", sans-serif;
+        font-size: 4vmax;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .one {
+        /* background-color: #83A2FF; */
+        background-color: rgb(230,195,79);
+      }
+      .two {
+        /* background-color: #EF9595; */
+        background-color: rgb(179,206,199);
+      }
+      .three {
+        /* background-color: #A8DF8E; */
+        background-color: rgb(236,150,123);
+      }
+      .four {
+        /* background-color: #FEFF86; */
+        background-color: rgb(178,137,155);
+      }
+      .five {
+        /* background-color: #EF9595; */
+        background-color: rgb(134,89,110);
+      }
+h1 {
+    text-align: center;
+    font-size: 65px;
+    letter-spacing: 5px;
+margin-top: 30px;
+font-family: "Madimi One", sans-serif;
+
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+
+}
+.cert_image {
+    width: 300px;
+    height: 250px;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.icon_back {
+    position: relative;
+    /* background-color: #9A446B; */
+    background-image: radial-gradient(rgb(154,68,107, 0.1), rgb(154,68,107,1));
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 40px;
+}
+
+img {
+    display: block;
+    
+}
+.gsap {
+    width: 100px;
+}
+.icon_back:hover .overlay {
+    height: 100%;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
