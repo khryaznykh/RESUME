@@ -28,20 +28,12 @@ font-size: 50px;
 
 
 .btn-clickhere:hover{
-  /* background: #03e9f4; */
   background: #FE0FF0;
   color: #050801;
-  /* box-shadow: 0 0 5px #03e9f4,
-              0 0 25px #03e9f4,
-              0 0 50px #03e9f4,
-              0 0 200px #03e9f4;
-
-} */
-box-shadow: 0 0 5px #FE0FF0,
-0 0 25px #FE0FF0,
-0 0 50px #FE0FF0,
-0 0 200px #FE0FF0;
-
+  box-shadow: 0 0 5px #FE0FF0,
+  0 0 25px #FE0FF0,
+  0 0 50px #FE0FF0,
+  0 0 200px #FE0FF0;
 }
 .absolute {
  display: none;
@@ -51,17 +43,13 @@ box-shadow: 0 0 5px #FE0FF0,
   position: absolute;
   top: 0px;
   left: 0px;
-  /* z-index: 2; */
   width: 100%;
   height: 100%;
-  /* z-index: 6; */
 }
 .background {
   flex: 1;
   height: 100vh;
   background-color: #050801;
-  /* background-color: aqua; */
-
 }
 /*done front page*/
 
@@ -138,6 +126,7 @@ box-shadow: 0 0 5px #FE0FF0,
 .image {
     width: 350px;
     height: 250px;
+    margin: 10px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -161,15 +150,13 @@ box-shadow: 0 0 5px #FE0FF0,
   }
   .text {
     font-size: 0;
-opacity: 0;
+    opacity: 0;
     height: 100%;
     width: 100%;
-    /* opacity: 1; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
  .text:hover {
@@ -177,8 +164,7 @@ opacity: 0;
     opacity: 1;
     font-size: 17px;
     transition-duration: 2s;
-    font-family: "Roboto Condensed", sans-serif;
-    
+    font-family: "Roboto Condensed", sans-serif;  
  }
 
  .btn-project {
@@ -205,13 +191,12 @@ opacity: 0;
  }
 
  .btn-project span {
-    position: relative;
-    font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.05em;
-  
  }
  .btn-project svg {
     position: relative;
@@ -238,30 +223,22 @@ opacity: 0;
   .btn-project:active {
     transform: scale(0.95);
   }
- 
-  /* body {
-    margin: 0;
-    background: #c9697a;
-    display: grid;
-    min-height: 100vh;
-    grid-auto-flow :column;
-    place-content: center;
-    gap: 40px;
-  } */
-
 
 .invis {
     opacity: 0;
 }
 
-
-
 .weather {
     background-image: url(weather.jpg);
-
 }
 .coffee {
     background-image: url(coffee_shop.jpg);
+}
+.prego {
+  background-image: url(prego.jpg);
+}
+.mealplan {
+  background-image: url(mealplan.jpg);
 }
 .quizz {
     background-image: url(quizz.jpg);
@@ -272,8 +249,20 @@ opacity: 0;
 .christmas {
     background-image: url(santa_2.jpg);
 }
+.nutrition {
+  background-image: url(nutrition.jpg);
+}
+.recipes {
+  background-image: url(recipe.jpg);
+}
+span {
+  font-size: 22px;
+}
 .bill {
-    background-image: url(split_the_bill_3\ copy.jpg);
+    background-image: url(bill-split.jpg);
+}
+.veganrest {
+  background-image: url(mainRest.jpg);
 }
 
 /*main page done*/
@@ -288,14 +277,9 @@ opacity: 0;
 }
 
 body {
-    background: linear-gradient(35deg, #5096e0, #d5dceb);
+  background: linear-gradient(35deg, #5096e0, #d5dceb);
   background-color:  #D2E0FB;  
-  /* background-image: url(back3.jpg); */
-  /* background-image: url(zakat.jpg); */
   height: 100vh;
-  /* background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
 }
 .menu-container {
   position: absolute;
@@ -369,23 +353,18 @@ a {
   color: black;
 }
 .one {
-  /* background-color: #83A2FF; */
   background-color: rgb(230,195,79);
 }
 .two {
-  /* background-color: #EF9595; */
   background-color: rgb(179,206,199);
 }
 .three {
-  /* background-color: #A8DF8E; */
   background-color: rgb(236,150,123);
 }
 .four {
-  /* background-color: #FEFF86; */
   background-color: rgb(178,137,155);
 }
 .five {
-  /* background-color: #EF9595; */
   background-color: rgb(134,89,110);
 }
 /*menu ends*/
@@ -410,15 +389,12 @@ box-shadow: 0 0 5px #FE0FF0,
 0 0 200px #FE0FF0;
 }
 .project_main {
- 
   justify-content: center;
- 
 }
 }
 @media all and (max-width: 500px) {
   .heading {
     left:30%
-
 }
 .menu-item p {
   rotate: -90deg;
@@ -438,7 +414,6 @@ box-shadow: 0 0 5px #FE0FF0,
   height: 180px;
 }
 .project_main {
-  
   padding-left: 10px;
   padding-right: 10px;
 }
