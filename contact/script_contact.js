@@ -28,13 +28,3 @@ btnContact.addEventListener('click', ()=>{
 
 })
 
-// btnContact.addEventListener('click', ()=>{
-//     gsap.to (cardContact, {
-//         opacity: 0,
-//         duration:1
-//     })
-//     gsap.to (formContact, {
-//         opacity: 1,
-//         duration:1
-//     })
-// })
