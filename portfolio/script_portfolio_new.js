@@ -32,56 +32,17 @@ btn.addEventListener ('click', ()=>{
         backgroundContainer.style.display = "block";
         
         gsap.to (background, {
-        
-            duration: 1,
-            stagger: 0.05,
+            duration: 0.4,
+            stagger: 0.01,
             opacity: 0
         })
         
-        // const backdrop = setTimeout(()=> {
-        //     falling.style.display = "none";
-        // }, 2000);
-        // clearTimeout(backdrop);
         gsap.to (projects, {
-            delay: 1.5,
+            delay: 0.5,
             opacity: 1,
-            duration: 2,
-            ease: "power4.in"
+            duration: 0.7,
+    
         })
        
       
     })
-
-//    const image = document.querySelectorAll(".image");
-//    const text = document.querySelectorAll('.text');
-
-//    text.forEach(textAppearRotate);
-    
-//     function textAppearRotate (item) {
-//         item.addEventListener('mouseover', ()=>{
-//          item.classList.add("text_big")
-        
-//     })
-//     item.addEventListener('mouseleave', ()=> {
-//         item.classList.remove("text_big")
-//     })
-   
-//    }
-
-
-
-// const images = document.querySelectorAll (".item");
-
-
-// images.forEach((item) => {
-//     item.addEventListener('mouseover', ()=>{
-//         deleteClass();
-//         item.classList.add('hover');
-     
-//     })
-//     function deleteClass() {
-//         images.forEach((item)=>{
-//             item.classList.remove('hover')
-//         })
-//     }
-// })

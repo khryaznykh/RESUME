@@ -33,10 +33,6 @@ function nextState() {
 
     gsap.delayedCall(1, nextState);
 
-    // const button = document.querySelector(".btn")
-    // gsap.to ( button, {
-    //     delay: 5,
-    // })
     const btncontainer = document.querySelector (".btn-container");
     const btn = document.querySelector (".btn");
     const menuHidden = document.querySelectorAll (".hidden");

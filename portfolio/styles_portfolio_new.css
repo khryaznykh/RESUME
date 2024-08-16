@@ -12,7 +12,6 @@
 .btn-clickhere{
 padding: 25px 30px;
 background-color: #050801;
-/* color: #03e9f4; */
 color: #FE0FF0;
 font-weight: bold;
 border: none;
@@ -20,7 +19,6 @@ border-radius: 40px;
 letter-spacing: 4px;
 overflow: hidden;
 transition: 0.5s;
-
 font-family: "Six Caps", sans-serif;
 font-size: 50px;
 
@@ -69,32 +67,32 @@ font-size: 50px;
     font-size: 75px;
     font-family: "Six Caps", sans-serif;
     transform: rotate(-180deg) translate(100px,0);
-    animation: animate 3s 5s forwards;
+    animation: animate 3s 2s forwards;
     display: inline-block;
 }
 .heading_area span:nth-of-type(2) {
-    animation-delay: 5.1s;
+    animation-delay: 2.1s;
 }
 .heading_area span:nth-of-type(3) {
-    animation-delay: 5.2s;
+    animation-delay: 2.2s;
 }
 .heading_area span:nth-of-type(4) {
-    animation-delay: 5.3s;
+    animation-delay: 2.3s;
 }
 .heading_area span:nth-of-type(5) {
-    animation-delay: 5.4s;
+    animation-delay: 2.4s;
 }
 .heading_area span:nth-of-type(6) {
-    animation-delay: 5.5s;
+    animation-delay: 2.5s;
 }
 .heading_area span:nth-of-type(7) {
-    animation-delay: 5.6s;
+    animation-delay: 2.6s;
 }
 .heading_area span:nth-of-type(8) {
-    animation-delay: 5.7s;
+    animation-delay: 2.7s;
 }
 .heading_area span:nth-of-type(9) {
-    animation-delay: 5.8s;
+    animation-delay: 2.8s;
 }
 
 @keyframes animate {

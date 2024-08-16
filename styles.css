@@ -6,17 +6,12 @@
     padding: 0;
     margin: 0;
     font-weight: 300;
-    /* font-family: 'Inknut Antiqua', serif; */
     height: 100vh;
     overflow: hidden;
-    /* background-color: aliceblue; */
     background-image: url("sunset.jpg");
-    /* background-image: url(https://images.unsplash.com/photo-1489674267075-cee793167910?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-
   }
 
   .container {
@@ -91,22 +86,9 @@
   .e {
     background:  rgb(197,81,179,0.3);
   }
-  /* .F {
-    background: rgb(255,55,144,0.5);
-  }
-  .l {
-    background:  rgb(0,205,150,0.5);
-  }
-  .i {
-     background:  rgb(0,74,210,0.5);
-  }
-  .p {
-    background:  rgb(197,81,179,0.5);
-  } */
   .container.plain .letter {
     color: black;
     padding: 20px;
-   
   }
  
 button {
@@ -161,10 +143,6 @@ button {
   .hidden {
     display: none;
   }
-  /* .menu-column {
-    
-   
-  } */
   .menu-item {
     flex: 1;
     height: 100%;
@@ -181,23 +159,18 @@ button {
     color: black;
   }
   .one {
-    /* background-color: #83A2FF; */
     background-color: rgb(230,195,79);
   }
   .two {
-    /* background-color: #EF9595; */
     background-color: rgb(179,206,199);
   }
   .three {
-    /* background-color: #A8DF8E; */
     background-color: rgb(236,150,123);
   }
   .four {
-    /* background-color: #FEFF86; */
     background-color: rgb(178,137,155);
   }
   .five {
-    /* background-color: #EF9595; */
     background-color: rgb(134,89,110);
   }
 
@@ -211,6 +184,5 @@ button {
     }
     .container.plain .letter {
       padding: 0px;
-     
     }
   }
